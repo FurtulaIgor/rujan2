@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("images/trees-g11f2a91d0_1920.jpg");
+  background-attachment: fixed;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.logo {
+  height: 250px;
+  width: auto;
+  flex: 1;
+}
+.menu {
+  flex: 2;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.language {
+  display: flex;
+  gap: 1rem;
+}
+
+.language-switch:hover {
+  cursor: pointer;
+}
+
+.flag {
+  transition: 0.2s;
+  width: 70px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  box-shadow: 2px 3px 6px rgb(0 0 0 / 62%), 0 1px 2px rgb(0 0 0 / 24%);
+  filter: grayscale(50%);
+}
+
+.flag:hover {
+  filter: grayscale(0);
+}
+
+.navigation {
+  margin: 10px 0;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.navigation .nav-item {
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 2px 3px 6px rgb(0 0 0 / 62%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.navigation .nav-item:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  display: flex;
+}
+
+/*.left,
+.right {
+  flex: 1;
+}*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fsn {
+  margin-top: 34px;
+}
+
+@media (max-width: 760px) {
+  .header,
+  .footer,
+  .content {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .content {
+    text-align: center;
+  }
+}
