@@ -78,6 +78,7 @@ html {
 
 .navigation .nav-item:hover {
   background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .content {
