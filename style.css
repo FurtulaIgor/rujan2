@@ -84,16 +84,18 @@ html {
   display: flex;
 }
 
-/*.left,
+.left,
 .right {
   flex: 1;
-}*/
+  padding: 1em;
+}
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding: 2em;
 }
 .icon {
   display: flex;
