@@ -32,6 +32,7 @@ html {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  margin-left: 1em;
 }
 
 .menu li {
@@ -102,7 +103,9 @@ html {
   display: flex;
   justify-content: space-around;
 }
-
+.icon>a>img{
+  filter: invert(1);
+}
 .fsn {
   margin-top: 34px;
 }
