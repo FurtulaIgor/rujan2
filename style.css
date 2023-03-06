@@ -115,6 +115,7 @@ html {
   .footer,
   .content {
     flex-direction: column;
+    font-size: 15px;
   }
   .logo {
     margin-bottom: 20px;
